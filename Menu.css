@@ -1,0 +1,126 @@
+.linksDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    backdrop-filter: blur(10px);
+    font-family: "poppins";
+    border-bottom: white 1px solid;
+    padding-right: 1vh;
+}
+
+.links {
+    color: white;
+text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 2.0vw ;
+  margin: 0.5vh;
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+/* עיצוב כפתור המבורגר */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5); /* רקע כהה עם שקיפות */
+  padding: 10px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border: none; /* אין צורך בגבול */
+  border-radius: 5px;
+  backdrop-filter: blur(5px); /* הוספת טשטוש */
+}
+
+
+/* קווים של כפתור ההמבורגר */
+.bar {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(255, 132, 0); /* התאמה לצבעי הממשק */
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out; /* הוספת אנימציה */
+}
+
+/* אפקט פתיחה */
+.hamburger.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(7px, 7px);
+  background-color:  rgb(255, 132, 0); /* צבע הקווים לאחר לחיצה */
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0; /* הקו האמצעי נעלם */
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+  background-color: rgb(255, 132, 0);
+}
+
+/* תפריט הקישורים */
+.linksDiv {
+  display: none;
+  flex-direction: column-reverse;
+backdrop-filter: blur(10px);
+  padding: 15px;
+  height: 650px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9;
+  transition: all 0.5s ease-in-out; /* אנימציה להצגת התפריט */
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.linksDiv.open {
+  display: flex;
+}
+
+.links {
+  color: white;
+  margin: 10px 0;
+  font-size: 25px !important;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  
+}
+
+.links:hover {
+  color: #ffc107; /* צבע לאחר ריחוף */
+}
+
+
+
+
+   .links {
+    font-size: 1.7vh ;
+    }
+
+
+  
+  }
+
+
+
+  
+.links:hover {
+    color: #ffa600;
+
+}
