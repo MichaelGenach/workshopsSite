@@ -1,0 +1,80 @@
+{/* 
+            <div className='s'>
+
+                <h5 className='p'>  <Link to={'/company'} className={'buttons2'} onClick={scrollToTop}><u>סדנאות פסיפסים לחברות</u></Link></h5>
+                <h5 className='p'>  <Link to={'/private'} className={'buttons2'} onClick={scrollToTop}><u>סדנאות פסיפסים בוטיק </u></Link></h5>
+                <h5 className='p'>  <Link to={'/pottery'} className={'buttons2'} onClick={scrollToTop}><u>סדנאות קדרות  </u></Link></h5>
+
+
+            </div>
+
+
+
+            <div className='s'>
+
+                <p className='p'>   יוצרים פסיפס בשיטה עתיקה של לוגו החברה שלכם  </p>
+                <p className='p' >  יוצרים פסיפס אישי בשיטה עתיקה יחד עם אמני פסיפסים </p>
+                <p className='p' >יוצרים וצובעים כלי חימר יחד עם אמני קדרות </p>
+            </div>
+
+            <div className='center'>
+                <h4 className='h4'>?כמה עושים</h4>
+            </div>
+            <div className='s'>
+
+                <p className='p'>פסיפס אחד גדול עבור משרדי החברה</p>
+                <p className='p' id='h22'>כל משתתף יוצר פסיפס</p>
+                <p className='p'>כל משתתף יוצר כלי</p>
+
+
+            </div>
+
+            <div className='line' id='line2'></div>
+
+
+
+
+            <div className='center'>
+                <h4 className='h4'>?כמה משתתפים</h4>
+            </div>
+
+            <div className='s'>
+
+                <p className='p'  >ללא הגבלת משתתפים</p>
+                <p className='p' > משתתף יחיד עד 10 משתתפים </p>
+                <p className='p' > ללא הגבלת משתתפים</p>
+            </div>
+
+
+            <div className='line' id='line4'></div>
+
+            <div className='center'>
+                <h4 className='h4'>?לאילו גילאים זה מתאים</h4>
+            </div>
+            <div className='s'>
+                <p className='p' >מתאים לכלל עובדי החברה</p>
+                <p className='p' id='s52'>מתאים לילדים מגיל 7 ומעלה</p>
+                <p className='p' id='s52'>מתאים לילדים מגיל 7 ומעלה</p>
+            </div>
+
+
+            <div className='line' id='line5'></div>
+
+
+            <div className='center'>
+                <h4 className='h4'>?מתי נקבל את היצירה</h4>
+            </div>
+            <div className='s'>
+                <div >
+                    <p className='p' id='s61'>זמן קצר לאחר הסדנא </p>
+                </div>
+                <p className='p' id='s62'>מיד בתום הסדנא</p>
+                <p className='p' id='s62'>מיד בתום הסדנא</p>
+
+            </div>
+
+
+
+
+            <div className='line' id='line6'></div>
+ */}
